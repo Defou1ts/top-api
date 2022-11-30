@@ -7,6 +7,7 @@ export const getMongoConfig = async (
 	return {
 		uri: getMongoString(configService),
 		...getMongoOptions(),
+		
 	};
 };
 
