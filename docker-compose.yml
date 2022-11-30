@@ -1,5 +1,5 @@
 version: '3'
-service:
+services:
   top.api:
     image: top-api
     container_name: top-api
